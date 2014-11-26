@@ -23,6 +23,8 @@ from sklearn.metrics import accuracy_score
 ### labels_train and labels_test are the corresponding item labels
 features_train, features_test, labels_train, labels_test = preprocess()
 
+#import ipdb; ipdb.set_trace()
+
 clf = GaussianNB()
 t0 = time()
 clf.fit(features_train, labels_train)

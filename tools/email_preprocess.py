@@ -25,7 +25,7 @@ def preprocess(words_file = "../tools/word_data.pkl", authors_file="../tools/ema
             -- training/testing labels
 
     """
-
+    #import ipdb; ipdb.set_trace()
     ### the words (features) and authors (labels), already largely preprocessed
     ### this preprocessing will be repeated in the text learning mini-project
     word_data = pickle.load( open(words_file, "r"))
